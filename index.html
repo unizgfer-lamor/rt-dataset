@@ -68,8 +68,10 @@
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block"><sup>1</sup>University of Zagreb Faculty of Electrical Engineering and Computing,<br>Laboratory for Autonomous Systems and Mobile Robotics</span>
-                    <span class="author-block"><br><sup>2</sup><br>DriveAhead</span>                  
+                    <span class="author-block"><sup>1</sup>University of Zagreb Faculty of Electrical Engineering and Computing,<br>Laboratory for Autonomous Systems and Mobile Robotics</span>            
+                  </div>
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>2</sup>DriveAhead.ai, with Rimac Technology at the time of this work.</span>            
                   </div>
 
                   <div class="column has-text-centered">
@@ -127,9 +129,9 @@
   </div>
   <div class="content has-text-justified">
   <br>
-  <p><strong>Vehicle platform used to collect the Rimac Automobili dataset:</strong> GVDepth demonstrates competitive zero-shot accuracy on autonomous driving datasets, matching state-of-the-art zero-shot Monocular Depth Estimation (MDE) methods. 
-    Remarkably, this is achieved while being trained on a <strong>single dataset</strong> collected with a <strong>single camera setup</strong>, even though its data distribution significantly differs from the KITTI and DDAD datasets.
-    <em>Note: UniDepth_RP and Metric3D_RP are not entirely true zero-shot methods, as they require resizing and padding to align with the training resolution</em>.
+  <p><strong>Vehicle with the mounted sensor setup that was used to collect the Rimac Technology dataset:</strong> Images were captured with a pair of NVidia rolling shutter automotive cameras at a frame rate of 30 Hz,  synchronized up to several microseconds placed just above the rear-view mirror.
+We assume existence of a slight inter frame delay, i.e., that an image was captured during approximately 98% of the image line scanning period. In the setup, stereo baseline was 12 cm, images were of 1920x1208 pixel resolution, while the lenses had a field of view of 60 degrees. 
+The ground truth was recorded with the SBG Ellipse-D RTK inertial navigation system with a dual antenna GNSS device running at 200 Hz.
   </p>
   </div>
   </div>
