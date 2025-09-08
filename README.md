@@ -1,7 +1,7 @@
 # The Rimac Technology Dataset Resources
 
 ## How to download the dataset
-The dataset contains three laps of driving on two different racetracks: Grobnik and NAVAK. It contains images from the left and right camera of the stereo pair denoted by the `left` and `right` keywords in the links for download.
+The dataset contains three laps of driving on two different racetracks: Grobnik and NAVAK. It contains images from the left and right camera of the stereo pair denoted by the `left` and `right` keywords in the download links provided <a rel="here" href="https://unizgfer-lamor.github.io/rt-dataset/"></a> .
 
 ## Dataset calibration
 
